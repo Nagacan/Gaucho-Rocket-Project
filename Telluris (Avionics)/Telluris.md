@@ -1,4 +1,4 @@
-<img width="720" height="720" alt="image" src="https://github.com/user-attachments/assets/404ac74b-fb4c-4355-8b08-122d665ab8e7" />
+<img width="480" height="480" alt="image" src="https://github.com/user-attachments/assets/404ac74b-fb4c-4355-8b08-122d665ab8e7" />
 
 ![Telluris Code](https://app.notion.com/p/Telluris-Wiki-22edc7fa243a802baae4f8249a0813ee#23edc7fa243a802d893bfaf9453b8a5b)
 
@@ -13,7 +13,7 @@
 
 ### Flight Computer
 The flight computer serves as the central controller of the rocket, managing critical functions from liftoff and thrust vector control to the deployment of the landing legs.
-<img width="1898" height="1504" alt="image" src="https://github.com/user-attachments/assets/0a34cea5-6fb2-4d90-9ae3-136a6b6f7d7f" />
+<img width="480" height="480" alt="image" src="https://github.com/user-attachments/assets/0a34cea5-6fb2-4d90-9ae3-136a6b6f7d7f" />
 
 ### Schematic 
 
@@ -59,7 +59,7 @@ Install the following libraries via the **Arduino Library Manager**, or manually
    `Documents/Arduino/libraries/SparkFun_ICM-20948_ArduinoLibrary/src/util/`
 
 2. Open `ICM_20948_C.h` and uncomment the following line:   `#define ICM_20948_USE_DMP`
-3. Wire the ICM-20948 to the ESP32 using this schematic: <p align="center"> <img src="https://github.com/user-attachments/assets/55271a32-4c1b-4f5f-b4ea-8b9dc3966151" alt="IMU wiring schematic"/> </p>
+3. Wire the ICM-20948 to the ESP32 using this schematic: <p align="center"> <img width="480" height="480" alt="image" src="https://github.com/user-attachments/assets/55271a32-4c1b-4f5f-b4ea-8b9dc3966151" alt="IMU wiring schematic"/> </p>
 4. Open or paste the provided sketch from this repository into a new Arduino IDE project.
 5. Upload the sketch, and hold the boot button on the ESP32 while uploading
 6. Open Serial Moniter at `115200 baud` and when prompted enter any key
