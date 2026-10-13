@@ -1,8 +1,8 @@
-<img width="960" height="840" alt="image" src="https://github.com/user-attachments/assets/404ac74b-fb4c-4355-8b08-122d665ab8e7" />
+<img width="720" height="720" alt="image" src="https://github.com/user-attachments/assets/404ac74b-fb4c-4355-8b08-122d665ab8e7" />
 
-[Telluris Code](https://app.notion.com/p/Telluris-Wiki-22edc7fa243a802baae4f8249a0813ee#23edc7fa243a802d893bfaf9453b8a5b)
+![Telluris Code](https://app.notion.com/p/Telluris-Wiki-22edc7fa243a802baae4f8249a0813ee#23edc7fa243a802d893bfaf9453b8a5b)
 
-[Telluris Website](https://gauchorocketprojec.wixsite.com/gaucho-rocket-projec/projects)
+![Telluris Website](https://gauchorocketprojec.wixsite.com/gaucho-rocket-projec/projects)
 
 ### Thrust Vector Controls
 
