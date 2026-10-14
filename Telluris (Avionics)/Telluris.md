@@ -13,6 +13,7 @@
 
 ### Flight Computer
 The flight computer serves as the central controller of the rocket, managing critical functions from liftoff and thrust vector control to the deployment of the landing legs.
+
 <img width="480" height="480" alt="image" src="https://github.com/user-attachments/assets/0a34cea5-6fb2-4d90-9ae3-136a6b6f7d7f" />
 
 ### Schematic 
