@@ -78,6 +78,30 @@ int main (void)
 	while(1)
 	{
 		/*3. Set PA5 high (turn on)*/ //Write 1 in position 5 in Output Data Register (GPIOA_OD_R |= (1U<<5))
-		GPIOA_OD_R |= LED_PIN;
+		/* The |= operator is used to force specific bits to become 1
+		 *  0000 1100  (Initial value of 'a' = 12)
+		  | 0000 1010  (Value of 'b' = 10)
+		  -----------
+		    0000 1110  (Resulting bit patterns = 14)
+		 * */
+		//GPIOA_OD_R |= LED_PIN; // remove "//" to use
+
+		/*4: Toggle PA5 on/off */
+		/* a ^ b (XOR outputs 1 only if bits are different)
+		 *  0000 1100  (Value of 'a' = 12)
+		  ^ 0000 1010  (Value of 'b' = 10)
+		  -----------
+		    0000 0110  (Intermediate result = 6)
+		 * */
+		GPIOA_OD_R ^= LED_PIN;
+		for(int i=0;i<1000000;i++){} // executes 1,000,000 times (with i going from 0 up to 999,999)
+		// Initialization (int i = 0): Sets the counter variable i to 0 before the loop starts.
+		// Condition (i < 1000000): Checked before each iteration; as i is less than 1,000,000 loop runs
+		// Increment (i++): Adds 1 to i after each complete pass of the loop
+		// Total Iterations: Runs for i = 0, 1, 2, ..., 999999, totaling 1,000,000 cycles
 	}
 }
+
+
+
+
